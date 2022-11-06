@@ -1,0 +1,14 @@
+.flex-auto {
+    flex: auto;
+}
+section {
+    margin: 3rem auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+        color: inherit;
+    }
+}

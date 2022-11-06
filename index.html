@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Start Main Menu -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logo-udemy.svg" alt="" width="90" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 w-100 mb-lg-0 align-items-center"
+            >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Business</a></li>
+                  <li><a class="dropdown-item" href="#">Development</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item flex-auto">
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2 rounded-pill border-dark"
+                    type="search"
+                    placeholder="Search for anything"
+                    aria-label="Search"
+                  />
+                </form>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Udemy Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Teach on Udemy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-cart3"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><button type="button" class="btn btn-outline-dark">
+                    Log in
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><button type="button" class="btn btn-outline-dark">
+                    Sign up
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><button type="button" class="btn btn-outline-dark">
+                    <i class="bi bi-globe"></i></button
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Main Menu -->
+
+    <!-- Start Hero Section -->
+    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/images/slider.jpg"
+            class="d-block w-100"
+            alt="Slider Images"
+          />
+          <div class="header-banner">
+            <h4>We’ll get you to your goals</h4>
+            <p>
+              Go from beginner to advanced in the topic of your choice. Courses
+              from $13.99 through Nov 3.
+              <a href="#">See Details</a>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/images/slider2.jpg"
+            class="d-block w-100"
+            alt="Slider Images"
+          />
+          <div class="header-banner">
+            <h4>Learning that gets you</h4>
+            <p>
+              Skills for your present (and your future).
+              <a href="#">Get started with us</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev header-carousel-button"
+        type="button"
+        data-bs-target="#header-carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button
+        class="carousel-control-next header-carousel-button"
+        type="button"
+        data-bs-target="#header-carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+    <!-- End Hero Section -->
+
+    <!-- start featured-courses  -->
+
+    <section>
+      <div class="container">
+        <h3>A board selection of courses</h3>
+        <p>
+          Choose from 183,000 online video courses with new additions published
+          every month
+        </p>
+        <div class="featured-courses">
+          <ul class="nav nav-tabs" id="featured-courses-taps" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link text-dark active"
+                id="python-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#python"
+                data-tab="python"
+                type="button"
+                role="tab"
+                aria-controls="python"
+                aria-selected="true"
+              >
+                Python
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link text-dark"
+                id="js-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#js"
+                data-tab="js"
+                type="button"
+                role="tab"
+                aria-controls="js"
+                aria-selected="false"
+              >
+                Javascript
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link text-dark"
+                id="web-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#web"
+                data-tab="web"
+                type="button"
+                role="tab"
+                aria-controls="web"
+                aria-selected="false"
+              >
+                Web Development
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="featured-courses-content">
+            <!-- Python -->
+            <div
+              class="tab-pane fade show active"
+              id="python"
+              role="tabpanel"
+              aria-labelledby="python-tab"
+            >
+              <!-- content Python -->
+              <div class="tab-pane-content">
+                <p class="h2">Expand your career opportunities with Python</p>
+                <p>
+                  Take one of Udemy’s range of Python courses and learn how to
+                  code using this incredibly useful language. Its simple syntax
+                  and readability makes Python perfect for Flask, Django, data
+                  science, and machine learning. You’ll learn how to build
+                  everything from games to sites to apps. Choose from a range of
+                  courses that will appeal to ...
+                </p>
+                <button type="button" class="btn btn-outline-dark">
+                  Explore Python
+                </button>
+              </div>
+
+              <!-- carousel-cards Python-->
+
+              <div class="carousel-cards">
+                <div
+                  id="featured-courses-python"
+                  class="featured-courses-python carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-1.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-2.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-3.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-4.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-5.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-6.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev course-carousel"
+                    type="button"
+                    data-bs-target="#featured-courses-python header-carousel-button"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next course-carousel header-carousel-button"
+                    type="button"
+                    data-bs-target="#featured-courses-python"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Javascript -->
+            <div
+              class="tab-pane fade"
+              id="js"
+              role="tabpanel"
+              aria-labelledby="js-tab"
+            >
+              <!-- content js -->
+              <div class="tab-pane-content">
+                <p class="h2">
+                  Grow your software development skills with JavaScript
+                </p>
+                <p>
+                  JavaScript is a text-based computer programming language used
+                  to make dynamic web pages. A must-learn for aspiring web
+                  developers or programmers, JavaScript can be used for features
+                  like image carousels, displaying countdowns and timers, and
+                  playing media on a webpage. With JavaScript online classes,
+                  you can learn to build ...
+                </p>
+                <button type="button" class="btn btn-outline-dark">
+                  Explore Javascript
+                </button>
+              </div>
+
+              <!-- carousel-cards Js-->
+              <div class="carousel-cards">
+                <div
+                  id="featured-courses-js"
+                  class="featured-courses-js carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-1.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-2.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-3.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-4.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-5.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-6.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev course-carousel header-carousel-button"
+                    type="button"
+                    data-bs-target="#featured-courses-js"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next course-carousel header-carousel-button"
+                    type="button"
+                    data-bs-target="#featured-courses-js"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Web-->
+            <div
+              class="tab-pane fade"
+              id="web"
+              role="tabpanel"
+              aria-labelledby="web-tab"
+            >
+              <div class="tab-pane-content">
+                <p class="h2">
+                  Build websites and applications with Web Development
+                </p>
+                <p>
+                  The world of web development is as wide as the internet
+                  itself. Much of our social and vocational lives play out on
+                  the internet, which prompts new industries aimed at creating,
+                  managing, and debugging the websites and applications that we
+                  increasingly rely on ...
+                </p>
+                <button type="button" class="btn btn-outline-dark">
+                  Explore Web Development
+                </button>
+              </div>
+
+              <!-- Web carousel -->
+
+              <div class="carousel-cards">
+                <div
+                  id="featured-courses-web"
+                  class="featured-courses-web carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-1.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-2.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-3.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-4.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-5.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-md-3">
+                        <div class="course-card">
+                          <div class="course-image">
+                            <img
+                              src="assets/images/courses/course-6.jpg"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="course-body">
+                            <span class="course-title"
+                              >The Complete Programming Fundamentals Course
+                              -Python[Arabic]</span
+                            >
+                            <span class="course-teacher">Nour D.Homsi</span>
+                            <span class="course-rating">3.6</span>
+                            <span class="course-rating-stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half"></i>
+                              <i class="bi bi-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                            <span class="course-price"
+                              >$11.99
+                              <span class="course-price-discount">$120</span>
+                            </span>
+                            <span class="course-bestseller">Bestseller</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev course-carousel header-carousel-button"
+                    type="button"
+                    data-bs-target="#featured-courses-web"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next course-carousel header-carousel-button"
+                    type="button"
+                    data-bs-target="#featured-courses-web"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End featured-courses  -->
+
+    <!-- Start Skills -->
+    <section>
+      <div class="container-fluid bg-light">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="skills">
+                <div class="skills-icon">
+                  <i class="bi bi-triangle-fill"></i>
+                </div>
+                <div class="skills-desc">
+                  Get unlimited access to 17,000+ of Udemy’s top courses for
+                  your team.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="skills">
+                <div class="skills-icon">
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <div class="skills-desc">
+                  Trusted by over 12,500 great teams Leading companies use the
+                  same courses to help employees keep their skills fresh.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="skills">
+                <div class="skills-icon">
+                  <i class="bi bi-infinity"></i>
+                </div>
+                <div class="skills-desc">
+                  Learners around the world are launching new careers, advancing
+                  in their fields, and enriching their lives.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills -->
+
+    <!-- Start Top Categories -->
+    <section>
+      <div class="container">
+        <h3>Top Categories</h3>
+        <div class="categories">
+          <a href="#" class="category">
+            <div class="category-img">
+              <img src="assets/images/category/category01.jpg" alt="category" />
+            </div>
+            <div class="category-title">Design</div>
+          </a>
+          <a href="#" class="category">
+            <div class="category-img">
+              <img src="assets/images/category/category02.jpg" alt="category" />
+            </div>
+            <div class="category-title">Development</div>
+          </a>
+          <a href="#" class="category">
+            <div class="category-img">
+              <img src="assets/images/category/category03.jpg" alt="category" />
+            </div>
+            <div class="category-title">Marketing</div>
+          </a>
+          <a class="category">
+            <div class="category-img">
+              <img src="assets/images/category/category04.jpg" alt="category" />
+            </div>
+            <div class="category-title">IT & Software</div>
+          </a>
+          <a href="#" class="category">
+            <div class="category-img">
+              <img src="assets/images/category/category08.jpg" alt="category" />
+            </div>
+            <div class="category-title">Art</div>
+          </a>
+          <a href="#" class="category">
+            <div class="category-img">
+              <img src="assets/images/category/category05.jpg" alt="category" />
+            </div>
+            <div class="category-title">Personal Development</div>
+          </a>
+          <a href="#" class="category">
+            <div class="category-img">
+              <img src="assets/images/category/category06.jpg" alt="category" />
+            </div>
+            <div class="category-title">Business</div>
+          </a>
+          <a href="#" class="category">
+            <div class="category-img">
+              <img src="assets/images/category/category07.jpg" alt="category" />
+            </div>
+            <div class="category-title">Photography</div>
+          </a>
+          <a href="#" class="category">
+            <div class="category-img">
+              <img src="assets/images/category/category08.jpg" alt="category" />
+            </div>
+            <div class="category-title">Music</div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Top Categories -->
+
+    <!-- Start footer -->
+    <footer>
+      <div class="container-fluid bg-dark text-light">
+        <div class="footer-menu">
+          <ul>
+            <li class="footer-menu-item"><a href="#">Udemy Business</a></li>
+            <li class="footer-menu-item"><a href="#">Teach on Udemy</a></li>
+            <li class="footer-menu-item"><a href="#">Get the app</a></li>
+            <li class="footer-menu-item"><a href="#">About us</a></li>
+            <li class="footer-menu-item"><a href="#">Contact us</a></li>
+          </ul>
+          <ul>
+            <li class="footer-menu-item"><a href="#">Careers</a></li>
+            <li class="footer-menu-item"><a href="#">Blog</a></li>
+            <li class="footer-menu-item"><a href="#">Help and Support</a></li>
+            <li class="footer-menu-item"><a href="#">Affiliate</a></li>
+            <li class="footer-menu-item"><a href="#">Investors</a></li>
+          </ul>
+          <ul>
+            <li class="footer-menu-item"><a href="#">Terms</a></li>
+            <li class="footer-menu-item"><a href="#">Privacy policy</a></li>
+            <li class="footer-menu-item"><a href="#">Cookie settings</a></li>
+            <li class="footer-menu-item"><a href="#">Sitemap</a></li>
+            <li class="footer-menu-item">
+              <a href="#">Accessibility statement</a>
+            </li>
+          </ul>
+          <div>
+            <a href="#" class="nav-link">
+              <button type="button" class="btn btn-outline-light">
+                <i class="bi bi-globe"></i> English
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="container-fluid bg-dark text-light sub-footer">
+      <div class="footer-logo">
+        <img src="assets/images/footer-logo.svg" alt="..." />
+      </div>
+      <div class="copy-right">© 2022 Udemy, Inc.</div>
+    </div>
+    <!-- End footer -->
+    <!-- Js Scripts -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

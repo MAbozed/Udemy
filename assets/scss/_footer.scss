@@ -1,0 +1,24 @@
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 0.9rem;
+        a:hover {
+            color: lightgray;
+
+        }
+    }
+}
+.sub-footer {
+    padding:1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    width: 100px;
+}
